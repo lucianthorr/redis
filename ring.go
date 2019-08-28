@@ -10,10 +10,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/lucianthorr/redis/v7/internal"
-	"github.com/lucianthorr/redis/v7/internal/consistenthash"
-	"github.com/lucianthorr/redis/v7/internal/hashtag"
-	"github.com/lucianthorr/redis/v7/internal/pool"
+	"github.com/lucianthorr/redis/internal"
+	"github.com/lucianthorr/redis/internal/consistenthash"
+	"github.com/lucianthorr/redis/internal/hashtag"
+	"github.com/lucianthorr/redis/internal/pool"
 )
 
 // Hash is type of hash function used in consistent hash.

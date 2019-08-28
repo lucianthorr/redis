@@ -9,7 +9,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/lucianthorr/redis/v7"
+	"github.com/lucianthorr/redis"
 	"github.com/lucianthorr/redis/internal/hashtag"
 
 	. "github.com/onsi/ginkgo"
