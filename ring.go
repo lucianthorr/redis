@@ -602,6 +602,10 @@ func (c *Ring) Pipeline() Pipeliner {
 	return &pipe
 }
 
+func (c *Ring) GetShard(input string) string {
+	return c.shards.Hash(hashtag.Key(input))
+}
+
 func (c *Ring) processPipeline(ctx context.Context, cmds []Cmder) error {
 	return c.hooks.processPipeline(ctx, cmds, func(ctx context.Context, cmds []Cmder) error {
 		return c.generalProcessPipeline(ctx, cmds, false)
