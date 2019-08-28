@@ -10,7 +10,7 @@ import (
 	"time"
 
 	"github.com/lucianthorr/redis/v7"
-	"github.com/lucianthorr/redis/v7/internal/hashtag"
+	"github.com/lucianthorr/redis/internal/hashtag"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

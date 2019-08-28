@@ -7,9 +7,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/lucianthorr/redis/v7/internal"
-	"github.com/lucianthorr/redis/v7/internal/proto"
-	"github.com/lucianthorr/redis/v7/internal/util"
+	"github.com/lucianthorr/redis/internal"
+	"github.com/lucianthorr/redis/internal/proto"
+	"github.com/lucianthorr/redis/internal/util"
 )
 
 type Cmder interface {

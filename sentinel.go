@@ -9,8 +9,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/lucianthorr/redis/v7/internal"
-	"github.com/lucianthorr/redis/v7/internal/pool"
+	"github.com/lucianthorr/redis/internal"
+	"github.com/lucianthorr/redis/internal/pool"
 )
 
 //------------------------------------------------------------------------------

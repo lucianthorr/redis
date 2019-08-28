@@ -13,10 +13,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/lucianthorr/redis/v7/internal"
-	"github.com/lucianthorr/redis/v7/internal/hashtag"
-	"github.com/lucianthorr/redis/v7/internal/pool"
-	"github.com/lucianthorr/redis/v7/internal/proto"
+	"github.com/lucianthorr/redis/internal"
+	"github.com/lucianthorr/redis/internal/hashtag"
+	"github.com/lucianthorr/redis/internal/pool"
+	"github.com/lucianthorr/redis/internal/proto"
 )
 
 var errClusterNoNodes = fmt.Errorf("redis: cluster has no nodes")

@@ -6,9 +6,9 @@ import (
 	"log"
 	"time"
 
-	"github.com/lucianthorr/redis/v7/internal"
-	"github.com/lucianthorr/redis/v7/internal/pool"
-	"github.com/lucianthorr/redis/v7/internal/proto"
+	"github.com/lucianthorr/redis/internal"
+	"github.com/lucianthorr/redis/internal/pool"
+	"github.com/lucianthorr/redis/internal/proto"
 )
 
 // Nil reply returned by Redis when key does not exist.

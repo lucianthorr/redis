@@ -10,7 +10,7 @@ import (
 	. "github.com/onsi/gomega"
 
 	"github.com/lucianthorr/redis/v7"
-	"github.com/lucianthorr/redis/v7/internal/proto"
+	"github.com/lucianthorr/redis/internal/proto"
 )
 
 var _ = Describe("Commands", func() {

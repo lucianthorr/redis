@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/lucianthorr/redis/v7/internal/pool"
+	"github.com/lucianthorr/redis/internal/pool"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

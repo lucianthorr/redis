@@ -12,7 +12,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/lucianthorr/redis/v7/internal/pool"
+	"github.com/lucianthorr/redis/internal/pool"
 )
 
 // Limiter is the interface of a rate limiter or a circuit breaker.
